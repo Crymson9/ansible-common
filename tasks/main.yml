@@ -1,0 +1,5 @@
+---
+- name: copy vimrc
+  copy: src="../files/.vimrc" dest="/root/.vimrc"
+  become: yes
+
